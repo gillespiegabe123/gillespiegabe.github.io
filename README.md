@@ -21,8 +21,11 @@ Update these placeholders in `index.html`:
 Suggested file names:
 
 ```text
-gabriel-gillespie-resume.pdf
-writing-sample.pdf
+resume.pdf
+inequality-homelessness.pdf
+ubi-public-finance.pdf
+airbnb-price-prediction.pdf
+namibia-case-study.pdf
 ```
 
 ## Publish on GitHub Pages
