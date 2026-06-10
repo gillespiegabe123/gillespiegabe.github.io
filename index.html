@@ -3,177 +3,199 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Student project portfolio for software, design, and technical school work.">
-    <title>Gabriel Gillespie | Project Portfolio</title>
-    <link rel="stylesheet" href="assets/styles.css">
+    <meta name="description" content="Gabriel Gillespie portfolio for data analyst, policy analyst, research analyst, and business analyst roles.">
+    <title>Gabriel Gillespie | Economics and Data Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Home">Gabriel Gillespie</a>
-      <nav class="nav" aria-label="Primary navigation">
+      <a class="logo" href="#top" aria-label="Gabriel Gillespie home">Gabriel Gillespie</a>
+      <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
-        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="top">
-      <section class="hero" aria-labelledby="intro-title">
-        <img class="hero-image" src="assets/images/hero-workspace.png" alt="A polished student workspace with a laptop, notebooks, and project materials.">
-        <div class="hero-overlay"></div>
+      <section class="hero">
         <div class="hero-content">
-          <p class="eyebrow">Project portfolio</p>
-          <h1 id="intro-title">I build practical projects that turn classwork into real-world results.</h1>
-         <!-- <p class="hero-copy">Use this site to show recruiters what you made, what problems you solved, and how you think through technical work.</p> -->
-          <div class="hero-actions" aria-label="Portfolio actions">
-            <a class="button primary" href="#projects">View projects</a>
-            <a class="button secondary" href="mailto:your.email@example.com">Email me</a>
+          <p class="eyebrow">Economics MA Graduate</p>
+          <h1>Gabriel Gillespie</h1>
+          <p class="headline">Economics MA Graduate | Data Analyst | Policy Researcher</p>
+          <p class="hero-copy">
+            I use economic reasoning, data analysis, and clear writing to turn complex information into practical insight for decision makers.
+          </p>
+          <div class="button-row">
+            <a class="button primary" href="#" aria-label="Download resume">Download Resume</a>
+            <a class="button secondary" href="#" aria-label="View writing sample">View Writing Sample</a>
           </div>
         </div>
+
+        <aside class="hero-panel" aria-label="Portfolio focus areas">
+          <div class="mini-chart" aria-hidden="true">
+            <span style="height: 42%"></span>
+            <span style="height: 68%"></span>
+            <span style="height: 53%"></span>
+            <span style="height: 84%"></span>
+            <span style="height: 61%"></span>
+          </div>
+          <div class="focus-list">
+            <div>
+              <strong>Analysis</strong>
+              <span>Data cleaning, visualization, interpretation</span>
+            </div>
+            <div>
+              <strong>Policy</strong>
+              <span>Economic research, program evaluation, briefing</span>
+            </div>
+            <div>
+              <strong>Business</strong>
+              <span>Trends, metrics, reporting, recommendations</span>
+            </div>
+          </div>
+        </aside>
       </section>
 
-      <section class="section intro-grid" aria-label="Portfolio highlights">
-        <div>
-          <span class="metric">6+</span>
-          <span class="metric-label">school projects ready to present</span>
+      <section class="section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Analytical, policy-minded, and comfortable working across data and writing.</h2>
         </div>
-        <div>
-          <span class="metric">3</span>
-          <span class="metric-label">focus areas: software, data, and design</span>
-        </div>
-        <div>
-          <span class="metric">1</span>
-          <span class="metric-label">clear place for recruiters to understand your work</span>
+        <div class="about-grid">
+          <p>
+            I am an Economics MA graduate interested in roles where quantitative analysis, research, and communication meet. My work focuses on understanding economic questions, evaluating evidence, and presenting findings in a clear, useful way.
+          </p>
+          <p>
+            I am especially interested in data analyst, policy analyst, research analyst, and business analyst positions where I can support better decisions through careful analysis, strong documentation, and practical recommendations.
+          </p>
         </div>
       </section>
 
       <section class="section" id="projects">
         <div class="section-heading">
-          <p class="eyebrow">Featured work</p>
-          <h2>Projects</h2>
-        </div>
-
-        <div class="filters" aria-label="Filter projects">
-          <button class="filter-button active" type="button" data-filter="all">All</button>
-          <button class="filter-button" type="button" data-filter="software">Software</button>
-          <button class="filter-button" type="button" data-filter="data">Data</button>
-          <button class="filter-button" type="button" data-filter="design">Design</button>
+          <p class="eyebrow">Featured Projects</p>
+          <h2>Selected work</h2>
         </div>
 
         <div class="project-grid">
-          <article class="project-card" data-category="software">
-            <div class="project-visual software"></div>
-            <div class="project-body">
-              <div class="project-meta">
-                <span>Software</span>
-                <span>JavaScript</span>
-              </div>
-              <h3>Campus Event Finder</h3>
-              <p>A web app concept that helps students find events by interest, date, and location. Replace this with your strongest app project.</p>
-              <ul class="project-points">
-                <li>Designed searchable event cards and saved-event states.</li>
-                <li>Built responsive layouts for mobile and desktop users.</li>
-                <li>Documented next steps for authentication and admin tools.</li>
-              </ul>
-              <div class="project-links">
-                <a href="#" aria-label="View Campus Event Finder code">Code</a>
-                <a href="#" aria-label="View Campus Event Finder demo">Demo</a>
-              </div>
-            </div>
+          <article class="project-card">
+            <div class="project-tag">Econometrics</div>
+            <h3>Labor Market Trends Analysis</h3>
+            <p>
+              Placeholder project analyzing employment, wage, or participation trends using public data. Add your research question, dataset, methods, and key findings here.
+            </p>
+            <ul>
+              <li>Cleaned and organized time-series economic data</li>
+              <li>Created charts to compare trends across groups</li>
+              <li>Summarized implications for policy or business decisions</li>
+            </ul>
           </article>
 
-          <article class="project-card" data-category="data">
-            <div class="project-visual data"></div>
-            <div class="project-body">
-              <div class="project-meta">
-                <span>Data</span>
-                <span>Python</span>
-              </div>
-              <h3>Student Success Dashboard</h3>
-              <p>An analysis project that turns a messy class dataset into useful charts and recommendations.</p>
-              <ul class="project-points">
-                <li>Cleaned data and handled missing values.</li>
-                <li>Created charts that compare outcomes across groups.</li>
-                <li>Summarized findings in plain language for nontechnical readers.</li>
-              </ul>
-              <div class="project-links">
-                <a href="#" aria-label="View Student Success Dashboard notebook">Notebook</a>
-                <a href="#" aria-label="View Student Success Dashboard report">Report</a>
-              </div>
-            </div>
+          <article class="project-card">
+            <div class="project-tag">Policy Research</div>
+            <h3>Policy Brief or Writing Sample</h3>
+            <p>
+              Placeholder for a policy memo, literature review, or applied economics paper. Use this card to show how you explain evidence and make a structured argument.
+            </p>
+            <ul>
+              <li>Reviewed academic and policy sources</li>
+              <li>Identified tradeoffs and stakeholder impacts</li>
+              <li>Presented findings in concise professional writing</li>
+            </ul>
           </article>
 
-          <article class="project-card" data-category="design">
-            <div class="project-visual design"></div>
-            <div class="project-body">
-              <div class="project-meta">
-                <span>Design</span>
-                <span>UX</span>
-              </div>
-              <h3>Mobile Study Planner</h3>
-              <p>A prototype for organizing assignments, due dates, and study blocks without overwhelming students.</p>
-              <ul class="project-points">
-                <li>Mapped the user flow from assignment entry to weekly planning.</li>
-                <li>Tested early wireframes with classmates.</li>
-                <li>Improved the layout based on common pain points.</li>
-              </ul>
-              <div class="project-links">
-                <a href="#" aria-label="View Mobile Study Planner prototype">Prototype</a>
-                <a href="#" aria-label="View Mobile Study Planner case study">Case study</a>
-              </div>
-            </div>
+          <article class="project-card">
+            <div class="project-tag">Business Analytics</div>
+            <h3>Dashboard or KPI Report</h3>
+            <p>
+              Placeholder for a dashboard, spreadsheet model, SQL analysis, or business reporting project. Add screenshots, links, or a short explanation of the business problem.
+            </p>
+            <ul>
+              <li>Defined metrics and organized raw data</li>
+              <li>Built readable visuals for performance tracking</li>
+              <li>Translated results into recommendations</li>
+            </ul>
           </article>
         </div>
       </section>
 
-      <section class="section split" id="skills">
+      <section class="section skills-section" id="skills">
         <div class="section-heading">
-          <p class="eyebrow">Tools and strengths</p>
-          <h2>Skills</h2>
+          <p class="eyebrow">Skills</p>
+          <h2>Tools and strengths</h2>
         </div>
-        <div class="skill-panel">
-          <div>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Data Analysis</h3>
+            <p>Excel, statistical analysis, data cleaning, descriptive statistics, visualization, reporting</p>
+          </div>
+          <div class="skill-group">
+            <h3>Research</h3>
+            <p>Economic research, literature review, policy analysis, writing, briefing, source evaluation</p>
+          </div>
+          <div class="skill-group">
             <h3>Technical</h3>
-            <p>HTML, CSS, JavaScript, Python, SQL, Git, GitHub, responsive design</p>
+            <p>Python, SQL, R, Tableau, Power BI, GitHub, reproducible workflows</p>
           </div>
-          <div>
-            <h3>Project habits</h3>
-            <p>Problem framing, research, testing, documentation, presentation, iteration</p>
-          </div>
-          <div>
-            <h3>Career interests</h3>
-            <p>Software development, data analysis, product design, IT support, technical operations</p>
+          <div class="skill-group">
+            <h3>Communication</h3>
+            <p>Professional writing, presentations, stakeholder communication, executive summaries</p>
           </div>
         </div>
       </section>
 
-      <section class="section about" id="about">
-        <div class="section-heading">
-          <p class="eyebrow">About</p>
-          <h2>Hi, I'm Your Name.</h2>
-        </div>
-        <p>I'm a student building a portfolio of class projects, experiments, and practical technical work. I like projects where I can understand a real problem, build something useful, and explain my decisions clearly.</p>
-        <p>Replace this paragraph with your program, graduation timeline, the kind of role you want, and one or two details that make you memorable.</p>
-      </section>
-
-      <section class="section contact" id="contact">
+      <section class="section resume-section" id="resume">
         <div>
-          <p class="eyebrow">Contact</p>
-          <h2>Let's talk about internships, entry-level roles, or project work.</h2>
+          <p class="eyebrow">Resume</p>
+          <h2>Resume and writing sample</h2>
+          <p>
+            Add your resume PDF and writing sample PDF to this site, then update these placeholder links. Keep file names simple, such as <strong>gabriel-gillespie-resume.pdf</strong> and <strong>writing-sample.pdf</strong>.
+          </p>
         </div>
-        <div class="contact-actions">
-          <a class="button primary" href="mailto:gillespiegabe@gmail.com">gillespiegabe@gmail.com</a>
-          <a class="button secondary" href="https://github.com/https://github.com/gillespiegabe123">GitHub</a>
-          <a class="button secondary" href="https://www.linkedin.com/in/https://www.linkedin.com/in/gabriel-gillespie//">LinkedIn</a>
+        <div class="resume-actions">
+          <a class="button primary" href="#" aria-label="Download Gabriel Gillespie resume">Download Resume</a>
+          <a class="button secondary dark" href="#" aria-label="View Gabriel Gillespie writing sample">View Writing Sample</a>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Open to data, policy, research, and business analyst opportunities.</h2>
+        </div>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:gillespiegabe@gmail.com">
+            <span>Email</span>
+            <strong>gillespiegabe@gmail.com</strong>
+          </a>
+          <a class="contact-card" href="https://www.linkedin.com/in/gabriel-gillespie/">
+            <span>LinkedIn</span>
+            <strong>linkedin.com/in/gabriel-gillespie</strong>
+          </a>
+          <a class="contact-card" href="#">
+            <span>GitHub</span>
+            <strong>Add your GitHub profile link</strong>
+          </a>
+        </div>
+        <div class="button-row contact-buttons">
+          <a class="button primary" href="https://www.linkedin.com/in/gabriel-gillespie/">LinkedIn</a>
+          <a class="button secondary dark" href="#">GitHub</a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>&copy; <span id="year"></span> Your Name. Built for GitHub Pages.</p>
+      <p>&copy; <span id="year"></span> Gabriel Gillespie. All rights reserved.</p>
     </footer>
 
-    <script src="assets/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
